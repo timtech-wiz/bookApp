@@ -1,3 +1,18 @@
+## PROJECT SETUP
+<ol>
+    <li>Clone the project <p>git clone https://github.com/timtech-wiz/bookApp.git</p></li>
+    <li>Install Composer Dependencies <p>Run this command</p><p>composer install</p></li>
+    <li>create .env file in your project root folder & copy everything from .env.example file into .env file</li>
+    <li>Generate APP_KEY in .env file for you. <p>Run this command</p><p>php artisan key:generate</p></li>
+    <li>Setup your DB_DATABASE, DB_USERNAME & DB_PASSWORD in .env file.</li>
+    <li>Run the project with this command <p>php artisan serve</p></li>
+    <li>For the client side, you don't need any setup, However Ensure you are connected to Network</li>
+</ol>
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
