@@ -14,6 +14,10 @@ return [
     |
     */
 
+    'iceandfire' => [
+        'uri' => env('ICE_AND_FIRE_URI')
+    ],
+
     'postmark' => [
         'token' => env('POSTMARK_TOKEN'),
     ],
